@@ -1,4 +1,4 @@
   export const handler = async () => {
-    console.log('This is from log from handler 1.')
+    console.log('This is from log from handler 2.')
   }
         
