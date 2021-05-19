@@ -2,7 +2,9 @@
   "applicationName": "git-typescript-1",
   "programmingLanguage": "TYPESCRIPT",
   "id": "2da9b178-9223-49cc-8c5a-f87db56da6fd",
-  "apiGateways": {},
+  "apiGateways": {
+    "nebojsa-test-1": "d0loxkiok7"
+  },
   "functions": [
     {
       "id": "50cc3151-1a6d-410e-aa50-a943ccab53fd",
