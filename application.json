@@ -36,7 +36,7 @@
         "type": "HTTP",
         "scheduleExpression": "",
         "openApiSpec": {
-          "/hello-world-1": {
+          "/hello-world-3": {
             "get": {
               "responses": {
                 "200": {
