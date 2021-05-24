@@ -31,7 +31,7 @@
       "id": "50cc3151-1a6d-410e-aa50-a943ccab53fd",
       "functionName": "function-1",
       "handlerName": "handler",
-      "code": "  export const handler = async () => {\n    console.log('This is from log from handler 2.')\n    return {\n      value: \"123\"\n    }\n  }\n        ",
+      "code": "  export const handler = async () => {\n    console.log('This is from log from handler 1.')\n    return {\n      value: \"123\"\n    }\n  }\n        ",
       "trigger": {
         "type": "HTTP",
         "scheduleExpression": "",
