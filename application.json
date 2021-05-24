@@ -7,15 +7,15 @@
   },
   "functions": [
     {
-      "id": "50cc3151-1a6d-410e-aa50-a943ccab53fd",
-      "functionName": "function-1",
+      "id": "0ac543a6-dd45-4ca0-aee6-8ede674875e0",
+      "functionName": "function-2",
       "handlerName": "handler",
-      "code": "  export const handler = async () => {\n    console.log('This is from log from handler 2.')\n  }\n        ",
+      "code": "  export const handler = async () => {\n    console.log('This is from log from handler.')\n  }\n        ",
       "trigger": {
         "type": "HTTP",
         "scheduleExpression": "",
         "openApiSpec": {
-          "/hello-world-1": {
+          "/hello-world-3": {
             "get": {
               "responses": {
                 "200": {
@@ -28,15 +28,15 @@
       }
     },
     {
-      "id": "0ac543a6-dd45-4ca0-aee6-8ede674875e0",
-      "functionName": "function-2",
+      "id": "50cc3151-1a6d-410e-aa50-a943ccab53fd",
+      "functionName": "function-1",
       "handlerName": "handler",
-      "code": "  export const handler = async () => {\n    console.log('This is from log from handler.')\n  }\n        ",
+      "code": "  export const handler = async () => {\n    console.log('This is from log from handler 2.')\n    return {\n      value: \"123\"\n    }\n  }\n        ",
       "trigger": {
         "type": "HTTP",
         "scheduleExpression": "",
         "openApiSpec": {
-          "/hello-world-3": {
+          "/hello-world-1": {
             "get": {
               "responses": {
                 "200": {
