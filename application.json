@@ -26,6 +26,27 @@
           }
         }
       }
+    },
+    {
+      "id": "0ac543a6-dd45-4ca0-aee6-8ede674875e0",
+      "functionName": "function-2",
+      "handlerName": "handler",
+      "code": "  export const handler = async () => {\n    console.log('This is from log from handler.')\n  }\n        ",
+      "trigger": {
+        "type": "HTTP",
+        "scheduleExpression": "",
+        "openApiSpec": {
+          "/hello-world-3": {
+            "get": {
+              "responses": {
+                "200": {
+                  "description": "200 response"
+                }
+              }
+            }
+          }
+        }
+      }
     }
   ]
 }
